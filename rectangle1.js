@@ -3,10 +3,10 @@
  */
 var rect = {
     per : function(x,y){
-        console.log(2*(x+y));
+       return 2*(x+y);
 },
     area: function (x,y) {
-        console.log( x*y);
+        return x*y;
     }
 };
 
@@ -22,4 +22,4 @@ function solveRect(l, b) {
 
 }
 
-solveRect(2,5);
+solveRect(2,5);//14 10
